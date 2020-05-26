@@ -3,7 +3,8 @@ spring:
     active: dev
 
 ---
-
+server:
+  port: 8004
 #spring的配置
 spring:
   profiles: dev
@@ -11,6 +12,8 @@ spring:
     name: config-dev
 
 ---
+server:
+  port: 8005
 spring:
   profiles: test
   application:
